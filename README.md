@@ -9,7 +9,7 @@ You'll need to install the work_queue gem.
 
 ##Usage
 
-ruby printer-load.rb printserver/queue number_of_concurrent_printers number_of_jobs
+`ruby printer-load.rb printserver/queue number_of_concurrent_printers number_of_jobs`
 
 ##Output
 
