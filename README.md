@@ -7,11 +7,11 @@ You'll need to install the work_queue gem.
 
 `sudo gem install work_queue`
 
-Usage
+##Usage
 
 ruby printer-load.rb printserver/queue number_of_concurrent_printers number_of_jobs
 
-Output
+##Output
 
 You'll get something like the below when the test is finished.
 
