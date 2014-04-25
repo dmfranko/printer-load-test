@@ -1,7 +1,7 @@
 printer-load-test
 =================
 
-Load test a LPR printer.
+You can use this tool to load test a LPR printer.  Currently it has only been used or tested on OSX, but it should work on Linux as well.
 
 You'll need to install the work_queue gem.
 
