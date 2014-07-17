@@ -3,6 +3,12 @@ require 'fileutils'
 require 'work_queue'
 require 'byebug'
 
+if ARGV.length < 3
+  puts "You must supply 3 arguments [print_server][concurrent_printers][jobs_for_each]"
+  # Can't go on without the proper args
+  exit
+end
+
 print_server = ARGV[0]
 puts "Starting with #{ARGV[1]} concurrent printers for #{ARGV[2]} jobs each and a total of #{ARGV[0].to_i * ARGV[1].to_i} jobs against '#{print_server}'"
 
