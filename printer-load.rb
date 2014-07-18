@@ -10,7 +10,7 @@ if ARGV.length < 3
 end
 
 print_server = ARGV[0]
-puts "Starting with #{ARGV[1]} concurrent printers for #{ARGV[2]} jobs each and a total of #{ARGV[0].to_i * ARGV[1].to_i} jobs against '#{print_server}'"
+puts "Starting with #{ARGV[1]} concurrent printers for #{ARGV[2]} jobs each and a total of #{ARGV[1].to_i * ARGV[2].to_i} jobs against '#{print_server}'"
 
 files_path = File.join(File.expand_path File.dirname(__FILE__),"files")
 
